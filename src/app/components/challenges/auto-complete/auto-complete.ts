@@ -10,7 +10,8 @@ export class AutoComplete {
 
   autocorrectMapping: Record<string, string> = {
     "wierd": "weird",
-    "recieve": "receive"
+    "recieve": "receive",
+    "ching" : "Singh"
   }
 
   autocomplete(event:Event){
